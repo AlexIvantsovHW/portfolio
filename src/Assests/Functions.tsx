@@ -1,0 +1,1 @@
+export const windowInnerWidth = document.documentElement.clientWidth;
