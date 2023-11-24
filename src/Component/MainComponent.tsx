@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import "./style.css";
 import videoMain from '../Assests/video1.mp4'
-import Portfolio from './Portfolio';
 import { windowInnerWidth } from "../Assests/Functions";
 const MainComponent: FC = () => {
   return (

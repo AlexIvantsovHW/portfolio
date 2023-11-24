@@ -62,10 +62,10 @@ html{
 }
 .video_bg_content{
     z-index: 2;
-    color: rgba(0, 0, 0, 0.11);
+    color: rgba(0, 0, 0, 0.336);
     font-size: 60px;
     text-align: center;
-    -webkit-text-stroke: 1px #faf9f9;
+    -webkit-text-stroke: 0.5px #faf9f9;
     animation: colorAnim 4s ease-in forwards infinite;
   }
 
@@ -246,6 +246,30 @@ html{
      .right-card{width: 60%;}
    }
 /*IPHONE XR*/
+
+
+/*___________________________________*/
+  /*SAMSUNG A31*/
+  @media only screen and (max-width: 413px) and (max-height: 916px){
+    .contact-container{
+     margin-top: 40px;margin-bottom: 40px;
+     flex-wrap: wrap;gap: 20px;flex-direction:column;
+     }    
+     /*Experience*/
+     .work-card-container{flex-direction: column;width: 100%;}    
+    .left-card,.right-card{width: 90%;}  
+   }
+ @media only screen and (max-width: 916) and (max-height: 413px){
+    .contact-container{margin-top: 40px;margin-bottom: 40px;
+     flex-wrap: wrap;gap: 20px;flex-direction:row;
+     }    
+     /*Experience*/
+     .work-card-container{width: 90%;}    
+     .left-card{width: 40%;}
+     .right-card{width: 60%;}
+   }
+/*SAMSUNG A31*/
+
 /*___________________________________*/
   /*IPHONE 14MAX PRO*/
   @media only screen and (max-width: 431px) and (max-height: 933px){
