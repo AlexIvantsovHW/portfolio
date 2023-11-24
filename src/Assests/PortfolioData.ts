@@ -7,7 +7,7 @@ export let PortfolioData=[
   },
   {
     title:'Souvenir online store',
-    link:'alexivantsovhw.github.io/AltaySuvenir/#/mainPage',
+    link:'https://alexivantsovhw.github.io/AltaySuvenir/#/mainPage',
     img:'https://i.postimg.cc/QMg1hwtW/shaman.png',
     description:"The Altay souvenir online store is designed by taking into account user-friendly styled and simple in using the interface. The store includes wide item collection of ethic souvenirs from musical instruments to Altay ethic tea, honey and nutritional supplements.",
   },

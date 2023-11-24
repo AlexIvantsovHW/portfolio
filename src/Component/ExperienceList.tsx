@@ -2,7 +2,6 @@ import React, { FC, useState } from "react";
 import "./style.css";
 import { PortfolioData } from "../Assests/PortfolioData";
 import { motion } from "framer-motion";
-import { windowInnerWidth } from "../Assests/Functions";
 
 interface CardType{
   img:string,
