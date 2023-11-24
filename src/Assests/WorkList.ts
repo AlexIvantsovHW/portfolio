@@ -3,7 +3,7 @@ export let WorkList=[
       title:'Itransition Group',
       date:'Jul-Sep.2023',
       role:'Frontend dev.',
-      img:'https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/217455081_4917825764901016_4628662531010962822_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LYklP0ibLp4AX8dQYxx&_nc_ht=scontent.fkut1-1.fna&oh=00_AfC38jtlNWsxIfiH5ARfBl2e1qfs77PPrvlQnbbOp9WbcA&oe=6552A51E',
+      img:'https://i.postimg.cc/wxWnTqjX/itransition.png',
       description:"As a Frontend developer, I have fully realized three Full-stack projects such as a recommendation matching application, online chat and user data management app. and gained hands-on experience in commercial development, Unit testing and database architecture.",
       arrStack:[
         'https://i.postimg.cc/Th0LSKc7/NodeJs.png',

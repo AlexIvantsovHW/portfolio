@@ -19,31 +19,18 @@ const AboutMe: FC = () => {
   const handleDisplay = () => {
     setDisplay(true);
   };
-  let size: number = windowInnerWidth > 700 ? 90 : 50;
+  let size: number = windowInnerWidth > 700 ? 70 : 50;
   let avaSize: number = windowInnerWidth > 700 ? 400 : 200;
   let fontSize: number = 70;
 
   return (
-    <div className="screen slider">
-      <div className="personal_container">
-        <motion.div 
-           viewport={{ once: true }}
-          className="upper-container"
-          initial={{opacity:0,scale:0,x:-500}}
-          whileInView={{opacity:1,scale:1,x:0}}
-          transition={{duration:1.5 }}
-          >
-          <div>{Ava(avaSize)}</div>
-          <ul>
-            <h1
-              style={{
-                color: "#c6c6ff",
-                fontSize: `${fontSize}px`,
-                textAlign: "center",
-              }}
-            >
-              Who's this guy?
-            </h1>
+    <div className="about-container slider">
+      <div className="about-subcontainer">
+      <div className='top-container'>
+        <img src='https://i.postimg.cc/85mXxWNn/11zon-cropped.png'/>
+        <div>
+        <ul>
+            <h1>Who's this guy?</h1>
             <li className="li1">
               I'm a Front-End Developer with basic Backend knowledge.
             </li>
@@ -58,16 +45,14 @@ const AboutMe: FC = () => {
             <li className="li4">Let's make something special.</li>
             <li className="li5">Currently I live in Batumi, Georgia.</li>
           </ul>
-        </motion.div>
-        <motion.div 
-        viewport={{ once: true }}
+        </div>
+      </div>
+      <div className="bottom-container">
+      <motion.div 
           className="bottom-container"
-          initial={{opacity:0,scale:0,x:500}}
-          whileInView={{opacity:1,scale:1,x:0}}
-          transition={{duration:1.5,delay:1 }}
           >
           <div className="software">
-            <h1>SOFTWARE</h1>
+            <h2>SOFTWARE</h2>
           </div>
           <div className="software_container">
             <div className="anim1">{ReactLogo(size)}</div>
@@ -81,6 +66,8 @@ const AboutMe: FC = () => {
             <div className="anim8">{IELTSlogo(size)}</div>
           </div>
         </motion.div>
+
+      </div>
       </div>
     </div>
   );

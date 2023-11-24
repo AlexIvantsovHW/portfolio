@@ -14,10 +14,11 @@ const EducationList: FC = () => {
         className="list-title"
         initial={{opacity:1,scale:0,}}
         whileInView={{opacity:1,scale:1}}
+        viewport={{ once: true }}
         transition={{duration:1 }}
         >
-        {HWLogo(size)}{windowInnerWidth>1094?<h2> Heriot-Watt University</h2>:<h2>HWU</h2>}
-        {windowInnerWidth>327?<div className="list-programm">{windowInnerWidth>1094?<p>M.Sc. in Petroleum engineering</p>:(windowInnerWidth>594?<p>M.Sc. in PE</p>:null)}</div>:null}
+        {HWLogo(size)}{windowInnerWidth>1094?<h2> Heriot-Watt University</h2>:<h2>  HWU</h2>}
+        {windowInnerWidth>327?<div className="list-programm">{windowInnerWidth>1094?<p> M.Sc. in Petroleum engineering</p>:(windowInnerWidth>594?<p>  M.Sc. in PE</p>:null)}</div>:null}
         </motion.div>
         <motion.div 
         className="list-title"
@@ -25,8 +26,8 @@ const EducationList: FC = () => {
         whileInView={{opacity:1,scale:1}}
         transition={{duration:1,delay:0.3 }}
         >
-        {TPULogo(size)}{windowInnerWidth>1094?<h2> Tomsk Polytechnic University</h2>:<h2>TPU</h2>}
-        <div className="list-programm">{windowInnerWidth>1094?<p>Master's degree in Petroleum Engineering</p>:(windowInnerWidth>594?<p>M.Sc. in PE</p>:null)}</div>
+        {TPULogo(size)}{windowInnerWidth>1094?<h2> Tomsk Polytechnic University</h2>:<h2>  TPU</h2>}
+        <div className="list-programm">{windowInnerWidth>1094?<p> Master's degree in Petroleum Engineering</p>:(windowInnerWidth>594?<p>  M.Sc. in PE</p>:null)}</div>
         </motion.div>
         <motion.div 
         className="list-title"
@@ -35,16 +36,15 @@ const EducationList: FC = () => {
         transition={{duration:1,delay:0.6 }}
         >
         {ItransitionLogo(size)} <h2> Itransition</h2>
-        <div className="list-programm">{(windowInnerWidth>594?<p>Commercial Software Development</p>:null)}</div>  
+        {windowInnerWidth>327?<div className="list-programm">{windowInnerWidth>1094?<p>  Commercial Software Development</p>:(windowInnerWidth>594?<p>  Software dev</p>:null)}</div>:null}
       </motion.div>
       <motion.div 
         className="list-title"
         initial={{opacity:1,scale:0,}}
         whileInView={{opacity:1,scale:1}}
         transition={{duration:1,delay:0.9 }}
-        >{UdemyLogo(size)}
-       <h2> Udemy</h2>
-       <div className="list-programm">{(windowInnerWidth>594?<p>Web development bootcamp</p>:null)}</div>
+        >{UdemyLogo(size)}<h2>Udemy</h2>
+       {windowInnerWidth>327?<div className="list-programm">{windowInnerWidth>1094?<p>  Web development bootcamp</p>:(windowInnerWidth>594?<p>  Web dev.</p>:null)}</div>:null}
       </motion.div>
       <motion.div 
         className="list-title"

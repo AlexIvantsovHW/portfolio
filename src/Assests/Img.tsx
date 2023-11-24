@@ -1,6 +1,6 @@
 import { FC } from "react"
 export function StepickLogo(size:number){return <img src='https://upload.wikimedia.org/wikipedia/commons/4/42/Stepik_logotype.png' height={size} width={size}/>}
-export function ItransitionLogo(size:number){return <img src='https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/217455081_4917825764901016_4628662531010962822_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LYklP0ibLp4AX8dQYxx&_nc_ht=scontent.fkut1-1.fna&oh=00_AfC38jtlNWsxIfiH5ARfBl2e1qfs77PPrvlQnbbOp9WbcA&oe=6552A51E' height={size} width={size}/>}
+export function ItransitionLogo(size:number){return <img src='https://i.postimg.cc/wxWnTqjX/itransition.png' height={size} width={size}/>}
 export function UdemyLogo(size:number){return <img src='https://i.postimg.cc/XqYnvD4Y/pngwing-com-2.png' height={size} width={size*2}/>}
 export function TPULogo(size:number){return <img src='https://upload.wikimedia.org/wikipedia/commons/e/e7/TPU_new_logo_en.png' height={size} width={size}/>}
 export function HWLogo(size:number){return <img src='https://upload.wikimedia.org/wikipedia/en/8/80/HWUFC.png' height={size} width={size}/>}

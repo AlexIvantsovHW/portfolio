@@ -20,9 +20,9 @@ function App() {
         <MainComponent />
         <AboutMe />
         <Portfolio />
-        <PortfolioList />
-        <Experience />
         <ExperienceList />
+        <Experience />
+        <PortfolioList />
         <Education />
         <EducationList/>
         <Contact/>
