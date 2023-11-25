@@ -81,6 +81,15 @@ const Contact: FC = () => {
               <SiCodewars size={style.size} color={style.color} />
             </a>
           </div>
+
+          <div className="sub-container">
+            <a
+              className="glow-on-hover"
+              href="https://drive.google.com/file/d/1acFrRoTHLgCF9LG1uEfH3TbQ-l0Qzp7T/view"
+            >
+              <img src="https://i.postimg.cc/7hxPsZQ1/pngegg.png" height={style.size} width={style.size}/>
+            </a>
+          </div>
         </motion.div>
       </div>
     </div>
