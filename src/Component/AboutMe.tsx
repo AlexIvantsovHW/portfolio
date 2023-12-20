@@ -7,10 +7,12 @@ import {
   HTMLlogo,
   IELTSlogo,
   JSLogo,
+  NextJSlogo,
   NodeJS,
   ReactLogo,
   SQLLogo,
   TSlogo,
+  TailWindLogo,
 } from "../Assests/Img";
 import { windowInnerWidth } from "../Assests/Functions";
 import { motion } from "framer-motion";
@@ -64,6 +66,8 @@ const AboutMe: FC = () => {
             <div className="anim6">{NodeJS(size)}</div>
             <div className="anim7">{SQLLogo(size)}</div>
             <div className="anim8">{IELTSlogo(size)}</div>
+            <div className="anim9">{NextJSlogo(size)}</div>
+            <div className="anim10">{TailWindLogo(size)}</div>
           </div>
         </motion.div>
 

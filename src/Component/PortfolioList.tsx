@@ -31,14 +31,14 @@ const WorkCard = (props: WorkCardPropsType) => {
         <div className="title">
           <h2>
             {props.title}
-            {props.role}
+            
             {props.date}
           </h2>
         </div>
       </div>
       <div className="right-card">
       <div className="descreption">
-        <p>{props.description}</p>
+        <p>{props.role}{props.description}</p>
       </div>
       <div className="container-bottom">
       {stekList===undefined?null:stekList.map((e)=>{return (<img src={e} height={'30px'} width={'30px'}/>)})}

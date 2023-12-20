@@ -397,7 +397,7 @@ html{
 .upper-container{ border: 0.5px solid red;height:450px;display: flex;justify-content: space-around; align-items: center;row-gap:20px ;}
 .software{max-height: min-content; display: flex;justify-content: center;align-items: end;}
 .software_container{display: flex;align-items: center;justify-content: center;gap: 20px;flex-wrap: wrap;}
-.anim1,.anim2,.anim3,.anim4,.anim5,.anim6,.anim7,.anim8,.ava{
+.anim1,.anim2,.anim3,.anim4,.anim5,.anim6,.anim7,.anim8,.anim9,.anim10,.ava{
  height: fit-content;
   opacity: 0;
   transition: 2s;
@@ -413,6 +413,8 @@ html{
 .anim6{animation-delay: 5s;}
 .anim7{animation-delay: 5.3s;}
 .anim8{animation-delay: 5.5s;}
+.anim9{animation-delay: 5.7s;}
+.anim10{animation-delay: 5.9s;}
 .ava-large{animation-delay: 2s; color:#0a02342c}
 
 @keyframes show{

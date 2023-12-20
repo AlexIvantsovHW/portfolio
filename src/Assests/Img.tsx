@@ -69,7 +69,7 @@ export function IELTSlogo(size:number){
 
 export function Ava(size:number){
   return(
-    <img  className="ava" src='https://i.postimg.cc/d3qMJbVL/small-ava.png' width={size} height={size*1.4}/>
+    <img  className="ava" src='https://i.imgur.com/NRurwgY.png' width={size} height={size*1.4}/>
   )
 }
 export function PhoneLogo(size:number){
@@ -85,3 +85,8 @@ export function TSlogo(size:number){
     <img  className="ava" src='https://cdn-icons-png.flaticon.com/512/5968/5968381.png' width={size} height={size*1.4}/>
   )
 }
+export function NextJSlogo(size:number){return(
+  <img  className="ava" src='https://media.graphassets.com/VKHHNvEETYqZRkqgjybc' width={size} height={size}/>)}
+
+  export function TailWindLogo(size:number){return(
+    <img  className="ava" src='https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu' width={size} height={size}/>)}  
