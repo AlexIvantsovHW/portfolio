@@ -85,7 +85,7 @@ const Contact: FC = () => {
           <div className="sub-container">
             <a
               className="glow-on-hover"
-              href="https://drive.google.com/file/d/1acFrRoTHLgCF9LG1uEfH3TbQ-l0Qzp7T/view"
+              href="https://drive.google.com/file/d/1Fzu_VO3X7xahP67xVxgH_Ea1iB4ltzYK/view?usp=drive_link"
             >
               <img src="https://i.postimg.cc/7hxPsZQ1/pngegg.png" height={style.size} width={style.size}/>
             </a>
