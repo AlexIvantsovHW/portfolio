@@ -34,7 +34,7 @@ const AboutMe: FC = () => {
         <ul>
             <h1>Who's this guy?</h1>
             <li className="li1">
-              I'm a Front-End Developer with basic Backend knowledge.
+              I'm a Fullstack Developer.
             </li>
             <li className="li2">
               I have serious passion for UI effects, animations and creating

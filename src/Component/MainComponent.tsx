@@ -8,7 +8,7 @@ const MainComponent: FC = () => {
       <video src={videoMain} autoPlay loop muted/>
       <div className="video_bg_content">
       {windowInnerWidth>361?<h1>ALEXANDER IVANTSOV</h1>:<h1>ALEXANDER<br/>IVANTSOV</h1>}
-      <h2>FRONTEND DEVELOPER</h2>
+      <h2>FULLSTACK DEVELOPER</h2>
         </div>
       
       </div>
