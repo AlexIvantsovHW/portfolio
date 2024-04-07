@@ -26,12 +26,13 @@ const Contact: FC = () => {
   return (
     <div className="screen-contact slider">
       <div className="screen_media_img">
-        <motion.div 
-        className="contact-container" id='Contact'
-        initial={{opacity:1,scale:0,}}
-        whileInView={{opacity:1,scale:1}}
-        viewport={{ once: true }}
-        transition={{duration:1 }}
+        <motion.div
+          className="contact-container"
+          id="Contact"
+          initial={{ opacity: 1, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
         >
           <div className="sub-container">
             <a
@@ -85,9 +86,13 @@ const Contact: FC = () => {
           <div className="sub-container">
             <a
               className="glow-on-hover"
-              href="https://drive.google.com/file/d/1Fzu_VO3X7xahP67xVxgH_Ea1iB4ltzYK/view?usp=drive_link"
+              href="https://www.dropbox.com/scl/fi/cgb45zci36rxb8xjju9ni/Frontend-developer-Alexander-Ivantsov.pdf?rlkey=zx0fyyjn8xcs3rkv6w6eucxnl&dl=0"
             >
-              <img src="https://i.postimg.cc/7hxPsZQ1/pngegg.png" height={style.size} width={style.size}/>
+              <img
+                src="https://i.postimg.cc/7hxPsZQ1/pngegg.png"
+                height={style.size}
+                width={style.size}
+              />
             </a>
           </div>
         </motion.div>
@@ -96,4 +101,3 @@ const Contact: FC = () => {
   );
 };
 export default Contact;
-

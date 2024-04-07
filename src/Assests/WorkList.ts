@@ -1,11 +1,30 @@
 export let WorkList = [
   {
+    title: "K-digital",
+    date: "Jul-Sep.2023",
+    role: "Frontend dev.",
+    img: "https://habrastorage.org/getpro/moikrug/uploads/company/100/007/583/9/logo/medium_1abec47895a2e76ae04d90afd2704ef5.jpg",
+    description:
+      "As a Frontend developer I am engaged in comercial softtware development. I have developed application business logic layer for managing cargo logistics using React and TypeScript, integrating the client-side with the server via GraphQL, carried out application debugging, code reviews, and project deployment within apps release. My main achievements are: the minimum viable application developing aimed at cargo logistics optimizing for an international logistic company within tight deadlines and  loading speed optimizion , reducing application loading time by 4 times.",
+    arrStack: [
+      "https://i.postimg.cc/Th0LSKc7/NodeJs.png",
+      "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+      "https://i.postimg.cc/RFhNsTby/js-5968292.png",
+      "https://i.postimg.cc/GHSBL6Vv/React.png",
+      "https://i.postimg.cc/Cnx1Y44v/Figma.png",
+      "https://i.postimg.cc/XpXJzQqq/HTML.png",
+      "https://static1.s123-cdn-static-a.com/uploads/4430217/800_627958487663f.png",
+      "https://avatars.githubusercontent.com/u/36859861?s=280&v=4",
+    ],
+  },
+
+  {
     title: "IT-INCUBATOR",
     date: "Jul-Sep.2023",
     role: "Fullstack dev.",
     img: "https://media.licdn.com/dms/image/C4D0BAQHeTQsBATkdwg/company-logo_200_200/0/1630571939950/it_incubator_logo?e=2147483647&v=beta&t=XE5GGfBmZNJBBYA2U-U7cocB-wAU1RGtPFnhHjfNros",
     description:
-      "          As a Fullstack Teamlead developer I am engaged in project of Social network SPA realization «Intcagram». Project period is 10.2023-06.2024. I lead frontend 5 members team including: development strategy planning, code review.	Stages result presentation to the technical lead.",
+      "          As a Fullstack Teamlead developer I am engaged in project of Social network SPA realization «Intcagram». I lead frontend 5 members team including: development strategy planning, code review.	Stages result presentation to the technical lead.",
     arrStack: [
       "https://i.postimg.cc/Th0LSKc7/NodeJs.png",
       "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
