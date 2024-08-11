@@ -49,7 +49,7 @@ const Contact: FC = () => {
             </div>
             {displayPhone ? (
               <p style={{ fontSize: fontSize, textAlign: "center" }}>
-                +995591210474
+                +357 967 718 40
               </p>
             ) : null}
           </div>
@@ -86,7 +86,7 @@ const Contact: FC = () => {
           <div className="sub-container">
             <a
               className="glow-on-hover"
-              href="https://www.dropbox.com/scl/fi/cgb45zci36rxb8xjju9ni/Frontend-developer-Alexander-Ivantsov.pdf?rlkey=zx0fyyjn8xcs3rkv6w6eucxnl&dl=0"
+              href="https://www.dropbox.com/scl/fi/264w7lt8gb5v4novjcpcv/Frontend-Developer-Aleksandr-Ivantsov.pdf?rlkey=21sy3nsifilowno3f9rgahjff&st=madglabf&dl=0"
             >
               <img
                 src="https://i.postimg.cc/7hxPsZQ1/pngegg.png"

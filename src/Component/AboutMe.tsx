@@ -44,8 +44,11 @@ const AboutMe: FC = () => {
                 Former Senior Reservoir Engineer in the oil and gas industry
                 (2018-2023).
               </li>
-              <li className="li4">Let's make something special.</li>
-              <li className="li5">Currently I live in Batumi, Georgia.</li>
+              <li className="li4">
+                Completed full development cycles for 5 apps and developed
+                client-side for 4 other projects.
+              </li>
+              <li className="li5">Currently I live in Limassol, Cyprus.</li>
             </ul>
           </div>
         </div>
